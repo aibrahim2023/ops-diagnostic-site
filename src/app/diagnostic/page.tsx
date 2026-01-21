@@ -1,8 +1,10 @@
+import { DiagnosticIntro } from "@/components/diagnostic/DiagnosticIntro";
+
 export default function DiagnosticPage() {
   return (
     <main>
-      <h1>Diagnostic</h1>
-      <p>Guided intake page (WIP).</p>
+      <DiagnosticIntro />
+      <p>Form coming next.</p>
     </main>
   );
 }
